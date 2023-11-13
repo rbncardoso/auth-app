@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default function SignUp() {
+export default function SignUpPage() {
   return (
-    <div>SignUp</div>
+    <div className='flex justify-center'>
+    <div className=''>
+    <h1 className=' text-center text-white text-2xl'>Signup</h1>
+
+    </div>
+  </div>
   )
 }
