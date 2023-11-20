@@ -27,6 +27,7 @@ export async function POST(request: NextRequest) {
         { status: 400 })
     }
     //creat token data
+    //at the backend is like this _id, username and email
     const tokenData = {
       id: user._id,
       username: user.username,
